@@ -21,7 +21,7 @@ main {
 .container{
     position: relative;
     margin-top: 10rem;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
     padding: 2rem;
     text-align: center;
     width: 450px;
@@ -59,7 +59,7 @@ button{
     border: none;
     outline: none;
     position: absolute;
-    top: 510px;
+    top: 430px;
 }
 
 button:hover {
