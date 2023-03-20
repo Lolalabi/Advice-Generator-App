@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+   
+   
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    position: relative;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 2rem;
+    text-align: center;
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: hsl(217, 19%, 24%);
+}
+.p1 {
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+    font-size: 15px;
+    padding-bottom: 15px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+
+}
+#quote{
+color: hsl(193, 38%, 86%);
+font-size: 1.5rem;
+min-height: 160px;
+}
+.img-desktop{
+    width: 100%;
+    height: 10px;
+}
+
+.img-mobile {
+    display: none;
+}
+
+button{
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    padding: 18px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 430px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 35px 2px hsl(150, 100%, 66%);
+}
+
+.dice{
+    width: 18px;
+    height: 18px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .img-desktop {
+      display: none;
+    }
+    #quote{
+        font-size: 1rem;
+    }
+    .img-mobile {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
